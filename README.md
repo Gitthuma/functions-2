@@ -9,3 +9,7 @@ For our second functions-related task, you need to create a function that draws 
 - color — the color of the rectangle.
 
 You'll want to clear the canvas before drawing, so that when the code is updated in the case of the live version, you don't get lots of rectangles drawn on top of one another.
+
+Ref: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Test_your_skills:_Functions
+
+Live web: https://gitthuma.github.io/functions-2/
