@@ -18,7 +18,7 @@ btn.textContent = 'Draw Rectangle';//Adds wording to the button
 
 function draw() {
 
-    ctx.clearRect(x, y, width, height);//Clear the canvas before drawing
+    ctx.clearRect(0, 0, canvas.width, canvas.height);//Clear the canvas before drawing
 
     ctx.fillStyle = color; //Gives color to Rectangle
     ctx.fillRect(x, y, width, height); //Draws Rectangle
