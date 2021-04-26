@@ -28,3 +28,7 @@ function draw() {
 
 const section = document.querySelector('section');
 section.appendChild(btn);
+
+/*Create an event listener to call the draw() function when button is clicked*/
+
+btn.addEventListener('click', draw);
