@@ -11,8 +11,8 @@ let color = 'blue';
 
 /*Create a button with the wording 'Draw Rectangle' and append it inside <section>*/
 
-const btn = document.createElement('button');
-btn.textContent = 'Draw Rectangle';
+const btn = document.createElement('button');//Creates button
+btn.textContent = 'Draw Rectangle';//Adds wording to the button
 
 /*Create a function that draws a rectangle and gives it color*/
 
@@ -29,7 +29,7 @@ function draw() {
 // Don't edit the code below here!
 
 const section = document.querySelector('section');
-section.appendChild(btn);
+section.appendChild(btn);//Append button inside section
 
 /*Create an event listener to call the draw() function when button is clicked*/
 
