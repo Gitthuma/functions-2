@@ -14,6 +14,16 @@ let color = 'blue';
 const btn = document.createElement('button');
 btn.textContent = 'Draw Rectangle';
 
+/*Create a function that draws a rectangle and gives it color*/
+
+function draw() {
+
+    ctx.fillStyle = color; //Gives color to Rectangle
+    ctx.fillRect(x, y, width, height); //Draws Rectangle
+
+}
+
+
 // Don't edit the code below here!
 
 const section = document.querySelector('section');
