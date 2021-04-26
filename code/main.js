@@ -18,6 +18,8 @@ btn.textContent = 'Draw Rectangle';
 
 function draw() {
 
+    ctx.clearRect(x, y, width, height);//Clear the canvas before drawing
+
     ctx.fillStyle = color; //Gives color to Rectangle
     ctx.fillRect(x, y, width, height); //Draws Rectangle
 
